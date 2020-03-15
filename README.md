@@ -21,6 +21,7 @@ This demo shows how it's possible to use NPM packages (ones with an ES module bu
 2. Run the demos with Deno:
 
    ```sh
+   # deno --importmap=web_modules/import-map.json demos/<demo>.js
    npm run immer
    npm run preact
    npm run rxjs
