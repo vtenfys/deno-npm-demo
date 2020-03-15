@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This demo shows how it's possible to use NPM packages (ones with an ES module build) with the [Deno](https://deno.land/) JavaScript runtime. You can find ESM packages to try with Deno on [Pika](https://www.pika.dev/).
+This demo shows how it's possible to use NPM packages (ones with an ES module build) with the [Deno](https://deno.land/) JavaScript runtime. [Snowpack](https://www.snowpack.dev/) is used to pack NPM dependencies for use with Deno. You can find ESM packages to try with Deno on [Pika](https://www.pika.dev/).
 
 ## How do I try it?
 
