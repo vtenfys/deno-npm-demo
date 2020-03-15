@@ -8,9 +8,14 @@
   "license": "ISC",
   "scripts": {
     "prepare": "snowpack --include demos/**/*.js",
-    "preact": "deno --importmap=web_modules/import-map.json demos/preact.js",
-    "rxjs": "deno --importmap=web_modules/import-map.json demos/rxjs.js",
-    "immer": "deno --importmap=web_modules/import-map.json demos/immer.js"
+    "preact": "deno --importmap=deno_modules/import-map.json demos/preact.js",
+    "rxjs": "deno --importmap=deno_modules/import-map.json demos/rxjs.js",
+    "immer": "deno --importmap=deno_modules/import-map.json demos/immer.js"
+  },
+  "snowpack": {
+    "installOptions": {
+      "dest": "deno_modules"
+    }
   },
   "dependencies": {
     "htm": "^3.0.3",
