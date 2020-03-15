@@ -1,20 +1,14 @@
 {
-  "name": "deno-snowpack-demo",
+  "name": "deno-npm-demo",
   "version": "0.1.0",
-  "description": "A demo using Snowpack with the Deno runtime",
+  "description": "A demo using NPM packages with the Deno runtime",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "prepare": "snowpack"
-  },
   "author": "David Bailey <davidbailey00@outlook.com>",
   "license": "ISC",
   "dependencies": {
     "htm": "^3.0.3",
     "preact": "^10.3.4",
     "preact-render-to-string": "^5.1.4"
-  },
-  "devDependencies": {
-    "snowpack": "^1.6.0"
   }
 }

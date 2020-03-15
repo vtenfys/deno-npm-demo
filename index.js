@@ -1,6 +1,6 @@
-import htm from "./web_modules/htm.js";
-import { h } from "./web_modules/preact.js";
-import render from "./web_modules/preact-render-to-string.js";
+import htm from "htm";
+import { h } from "preact";
+import render from "preact-render-to-string";
 
 const html = htm.bind(h);
 
