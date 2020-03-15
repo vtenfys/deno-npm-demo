@@ -13,7 +13,10 @@ function ParagraphLink({ href, children }) {
 }
 
 const vdom = html`
-  <${ParagraphLink} href="/">Hello!<//>
+  <main>
+    <${ParagraphLink} href="/">Home<//>
+    <${ParagraphLink} href="/contact">Contact<//>
+  </main>
 `;
 
 console.log(render(vdom));
