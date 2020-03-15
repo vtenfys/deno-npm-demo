@@ -14,6 +14,12 @@ In the demo, a [Preact](https://preactjs.com/) element tree is rendered to a str
    npm install
    ```
 
+   Snowpack should automatically run after installation - if not, run:
+
+   ```sh
+   npx snowpack
+   ```
+
 2. Run the demo with Deno:
 
    ```sh
