@@ -11,13 +11,13 @@ In the demo, a [Preact](https://preactjs.com/) element tree is rendered to a str
 1. Install dependencies with NPM:
 
    ```sh
-   npm install
+   pnpm install
    ```
 
    Snowpack should automatically run after installation - if not, run:
 
    ```sh
-   npx snowpack
+   pnpx snowpack
    ```
 
 2. Run the demo with Deno:
