@@ -1,8 +1,5 @@
-import htm from "htm";
-import { h } from "preact";
+import { html } from "htm/preact";
 import render from "preact-render-to-string";
-
-const html = htm.bind(h);
 
 function ParagraphLink({ href, children }) {
   return html`

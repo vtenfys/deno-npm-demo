@@ -4,8 +4,6 @@
 
 This demo shows how it's possible to use NPM packages (ones with an ES module build) with the [Deno](https://deno.land/) JavaScript runtime. You can find ESM packages to try with Deno on [Pika](https://www.pika.dev/).
 
-In the demo, a [Preact](https://preactjs.com/) element tree is rendered to a string and logged to the console. [HTM](https://github.com/developit/htm) is used rather than JSX to avoid the need for a transpilation step.
-
 ## How do I try it?
 
 1. Install dependencies with NPM:
@@ -14,10 +12,18 @@ In the demo, a [Preact](https://preactjs.com/) element tree is rendered to a str
    npm install
    ```
 
-2. Run the demo with Deno:
+   Snowpack should automatically run after installation - if it doesn't, use:
 
    ```sh
-   deno --importmap=import-map.json index.js
+   npm run prepare
+   ```
+
+2. Run the demos with Deno:
+
+   ```sh
+   npm run immer
+   npm run preact
+   npm run rxjs
    ```
 
 ## Does this work with [my favourite package]?
