@@ -30,6 +30,10 @@ In the demo, a [Preact](https://preactjs.com/) element tree is rendered to a str
 
 Snowpack re-packs NPM dependencies with an ESM build into single JS files. Deno scripts can then import these files, provided they don't use `require` or rely on any runtime-specific APIs.
 
+## Does Snowpack itself run on Deno?
+
+No. Although Snowpack enables using other NPM packages in Deno, Snowpack itself cannot run on Deno without further work, since it relies on both the Node.js module system and Node-specific APIs.
+
 ## Does this work with [my favourite package]?
 
 Probably not - this only works with packages that can both be built as pure ES modules, and that don't require the use of any Node-specific or web-specific JavaScript APIs. Supporting the larger Node.js ecosystem would be a more ambitious project, as Deno doesn't support CommonJS imports (i.e. `require`), and a compatibility layer would need to be created to support Node-specific APIs.
