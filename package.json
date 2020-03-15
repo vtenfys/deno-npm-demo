@@ -13,14 +13,6 @@
     "immer": "deno --importmap=web_modules/import-map.json demos/immer.js"
   },
   "dependencies": {
-    "htm": "^3.0.3",
-    "immer": "^6.0.1",
-    "lit-html": "^1.1.2",
-    "preact": "^10.3.4",
-    "preact-render-to-string": "^5.1.4",
-    "rxjs": "^6.5.4"
-  },
-  "devDependencies": {
-    "snowpack": "^1.6.0"
+    "rollup": "^2.0.6"
   }
 }
