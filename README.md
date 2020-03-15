@@ -28,7 +28,7 @@ In the demo, a [Preact](https://preactjs.com/) element tree is rendered to a str
 
 ## How does this work?
 
-Snowpack re-packs NPM dependencies with an ESM build into single JS files. Deno scripts can then import
+Snowpack re-packs NPM dependencies with an ESM build into single JS files. Deno scripts can then import these files, provided they don't use `require` or rely on any runtime-specific APIs.
 
 ## Does this work with [my favourite package]?
 
@@ -37,11 +37,11 @@ Probably not - this only works with packages that can both be built as pure ES m
 Things which likely **will** work:
 
 - Packages that can run in both the browser and the server, and don't require network/filesystem interaction, e.g. Preact
-- Packages that don't require Node-specific APIs (e.g. filesystems)
+- Packages that don't rely on Node-specific APIs (e.g. filesystems)
 - Utility libraries, e.g. Lodash
 
 Things that **won't** work:
 
-- Packages that require Node-specific APIs
-- Packages that require native extensions
+- Packages that rely on Node-specific or web-specific APIs
+- Packages that rely on native extensions
 - Packages that rely on the the Node.js module system (`require`, `module` etc)
