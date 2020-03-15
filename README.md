@@ -11,7 +11,7 @@ In the demo, a [Preact](https://preactjs.com/) element tree is rendered to a str
 1. Install dependencies with NPM:
 
    ```sh
-   pnpm install
+   npm install
    ```
 
 2. Run the demo with Deno:
