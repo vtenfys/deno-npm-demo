@@ -1,11 +1,11 @@
 {
-  "name": "deno-preact-demo",
+  "name": "deno-snowpack-demo",
   "version": "0.1.0",
-  "description": "A demo using server-side Preact with the Deno runtime",
+  "description": "A demo using Snowpack with the Deno runtime",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "prepare": "snowpack",
-    "start": "deno index.js"
+    "prepare": "snowpack"
   },
   "author": "David Bailey <davidbailey00@outlook.com>",
   "license": "ISC",
