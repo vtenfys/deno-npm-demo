@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "htm": "^3.0.3",
-    "immer": "^6.0.1",
+    "immer": "^8.0.1",
     "preact": "^10.3.4",
     "preact-render-to-string": "^5.1.4",
     "rxjs": "^6.5.4"
